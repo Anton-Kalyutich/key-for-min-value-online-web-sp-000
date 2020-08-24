@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
   return nil if name_hash == {}
   
-  values = name_hash.map {|name, value|
+  values = name_hash.map {|name, value| value}
+  
   
 end
