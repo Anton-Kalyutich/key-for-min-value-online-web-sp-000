@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
   
   values = name_hash.map {|name, value| value}
   min_value = values[0]
-  values.each 
+  values.each {|value| min_value
   
 end
